@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name dropbot-v3-connection-adapter-rescue)(type Legacy)(uri ${KIPRJMOD}/dropbot-v3-connection-adapter-rescue.lib)(options "")(descr ""))
+)
