@@ -1,11 +1,7 @@
-# DropBot v3-v2 adapter board
+# DropBot v3 connection adapter board
 
-This adapter allows you to connect a [DropBot v2 device connector](http://microfluidics.utoronto.ca/trac/dropbot/wiki/120ChannelDeviceConnector) to a DropBot v3 instrument.
+This adapter allows you to breakout the signals from a DropBot v3's pogo pins. It can be used to connect to an externally mounted DMF chip using [Samtec SFSD cables](https://www.samtec.com/products/sfsd) (e.g., 1 x `SFSD-25-28-G-24.00-D-NDX` and 2 x `SFSD-20-28-G-24.00-D-NDX`).
 
-## !!! *DISCLAIMER* !!!
-
-**This design is provided as is with no warranty or guarantees. It bypasses the DropBot's hardware interlock (a safety feature designed to prevent the DropBot from applying high-voltage without a chip present) and has not been tested for electromagnetic compliance. No responsibility is accepted for any damage, injury or death as a result of building/using this design. Any damage to your DropBot that occurs as a result of this adapter will not be covered by the Sci-Bots Inc. warranty.**
-
-![image](/uploads/d61237de4688795cd5eef1503ca1bea3/image.png)
-
-![image](/uploads/c0566b81f8b15a11b3fb9b4c16c1c5c5/image.png)
+![image](/png/dropbot-v3-connection-adapter-front.png)
+ 
+![image](/png/external-pogo-pin-device-connector.png).
